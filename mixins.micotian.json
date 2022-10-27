@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.7.11",
+  "compatibilityLevel": "JAVA_8",
+  "package": "ru.sanchez.micotian.mixin",
+  "refmap": "mixins.micotian.refmap.json",
+  "mixins": [
+    "MixinC00Handshake",
+    "MixinNetworkManager",
+    "MixinSPacketPlayerPosLook"
+  ],
+  "client": [],
+  "server": []
+}

@@ -1,0 +1,16 @@
+[
+{
+  "modid": "legend",
+  "name": "Legend",
+  "description": "a Minecraft FPS Mod",
+  "version": "V0.8.0",
+  "mcversion": "1.12.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Sanchez","Denger"],
+  "credits": ["Sanchez","Denger"],
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

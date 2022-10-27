@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+MixinConfigs: mixins.micotian.json
+Implementation-Title: micotian
+Implementation-Version: 0.8.0
+FMLCorePluginContainsFMLMod: true
+Specification-Title: micotian
+Implementation-Timestamp: 2022-10-14T15:10:07+0700
+TweakClass: org.spongepowered.asm.launch.MixinTweaker
+ForceLoadAsMod: true
+Specification-Version: 1
+

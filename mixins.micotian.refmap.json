@@ -1,0 +1,22 @@
+{
+  "mappings": {
+    "ru/sanchez/micotian/mixin/MixinC00Handshake": {
+      "writePacketData": "Lnet/minecraft/network/handshake/client/C00Handshake;func_148840_b(Lnet/minecraft/network/PacketBuffer;)V"
+    },
+    "ru/sanchez/micotian/mixin/MixinNetworkManager": {
+      "sendPacket": "Lnet/minecraft/network/NetworkManager;func_179290_a(Lnet/minecraft/network/Packet;)V",
+      "channelRead0": "Lnet/minecraft/network/NetworkManager;channelRead0(Lio/netty/channel/ChannelHandlerContext;Lnet/minecraft/network/Packet;)V"
+    }
+  },
+  "data": {
+    "searge": {
+      "ru/sanchez/micotian/mixin/MixinC00Handshake": {
+        "writePacketData": "Lnet/minecraft/network/handshake/client/C00Handshake;func_148840_b(Lnet/minecraft/network/PacketBuffer;)V"
+      },
+      "ru/sanchez/micotian/mixin/MixinNetworkManager": {
+        "sendPacket": "Lnet/minecraft/network/NetworkManager;func_179290_a(Lnet/minecraft/network/Packet;)V",
+        "channelRead0": "Lnet/minecraft/network/NetworkManager;channelRead0(Lio/netty/channel/ChannelHandlerContext;Lnet/minecraft/network/Packet;)V"
+      }
+    }
+  }
+}
